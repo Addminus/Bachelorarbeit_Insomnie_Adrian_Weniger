@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">SleepInspector</string>
+    <string name="notif_setting_txt">Tägliche Benachrichtigungen</string>
+    <string name="next">WEITER</string>
+    <string name="back">ZURÜCK</string>
+    <string name="save">SPEICHERN</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="o_clock">Uhr</string>
+    <string name="h_word">STUNDEN</string>
+    <string name="min_word">MINUTEN</string>
+    <string name="in_total">insgesamt</string>
+    <string name="times_word">MAL</string>
+    <string name="alcohol_hint">Wein</string>
+    <string name="date">Datum</string>
+    <string name="years_word">Jahre</string>
+    <string name="months_word">Monate</string>
+
+    <string name="evening">Am Abend</string>
+    <string name="morning_after_get_up">Am nächsten Morgen (nach dem Aufstehen)</string>
+    <string name="create_pdf">PDF AUSWERTUNG ERSTELLEN</string>
+    <string name="entry_morning">Eintrag Morgen</string>
+    <string name="entry_evening">Eintrag Abend</string>
+    <string name="entry_ris">Eintrag RIS</string>
+
+    <string name="report">Report</string>
+
+
+    <string name="evening_condition">Abendliches Gefühl</string>
+    <string name="daily_performance">Tägliche Leistungsfähigkeit</string>
+    <string name="daily_fatigue">Erschöpfung am Tag</string>
+    <string name="daily_sleep">Schlaf am Tag</string>
+    <string name="daily_alcohol">Konsumierter Alkohol 4 Stunden vor dem Schlaf</string>
+    <string name="bedtime">Bettgehzeit</string>
+
+    <string name="sleep_time">Schlafdauer</string>
+    <string name="sleep_well">Schlaf erholsamkeit</string>
+    <string name="morning_feeling">Morgendliches Gefühl</string>
+    <string name="sleep_start">Dauer zwischen Licht löschen und einschlafen</string>
+    <string name="times_awake">Nächtliche Wachphasen</string>
+    <string name="sleep_end">Endgültiges Aufwachen</string>
+    <string name="out_of_bed">Endgültiges Aufstehen</string>
+    <string name="medication">Medikamenteneinnahmen</string>
+
+
+    <string name="evening_condition_question">Wie fühlen Sie sich jetzt?</string>
+    <string name="daily_performance_question">Wie war heute Ihre durchschnittliche Leistungsfähigkeit?</string>
+    <string name="daily_fatigue_question">Haben Sie sich heute erschöpft gefühlt?</string>
+    <string name="daily_sleep_question">Haben Sie heute tagsüber geschlafen?</string>
+    <string name="daily_alcohol_question">Haben Sie in den letzten 4 Stunden Alkohol zu sich genommen?</string>
+    <string name="bedtime_question">Wann sind Sie zu Bett gegangen?</string>
+
+    <string name="sleep_well_question">Wie erholsam war Ihr Schlaf?</string>
+    <string name="morning_feeling_question">Wie fühlen Sie sich jetzt?</string>
+    <string name="sleep_start_question">Wie lange hat es nach dem Licht löschen gedauert bis Sie einschliefen?</string>
+    <string name="times_awake_question">Waren Sie nachts wach?</string>
+    <string name="sleep_end_question">Wann sind Sie heute endgültig aufgewacht?</string>
+    <string name="out_of_bed_question">Wann sind Sie heute endgültig aufgestanden?</string>
+    <string name="medication_question">Haben Sie seit gestern abend Medikamente zum Schlafen eingenommen?</string>
+    <string name="sleep_time_question">Wie lange haben Sie geschlafen?</string>
+
+
+    <string name="precomputed">Die voreingestellten Werte beruhen auf den Durchschnitt der letzten Eingaben</string>
+    <string name="avg_sleep_start">Meine üblichen Bettzeiten sind von </string>
+    <string name="avg_sleep_until">Uhr nachts bis  </string>
+    <string name="avg_sleep_end">Uhr am nächsten Tag  </string>
+    <string name="avg_time_until_asleep_question">Wie viele Minuten brauchen Sie in der Regel um einzuschlafen? </string>
+    <string name="avg_sleep_time_question">Wie viele Stunden glauben Sie, durchschnittlich nachts zu schlafen? </string>
+    <string name="sleep_interruption_question">Ich kann nicht durchschlafen </string>
+    <string name="early_sleep_end_question">Ich wache zu früh auf </string>
+    <string name="noise_affinity_question">Ich wache schon bei leichten Geräuschen auf </string>
+    <string name="felt_sleep_quality_question">Ich habe das Gefühl, die ganze Nacht kein Auge zugetan zu haben </string>
+    <string name="sleep_pondering_question"> Ich denke viel über meinen Schlaf nach</string>
+    <string name="sleep_fear_question">Ich habe Angst ins Bett zu gehen, da ich befürchte, nicht schlafen zu können</string>
+    <string name="felt_performance_question">Ich fühle mich voll leistungsfähig </string>
+    <string name="ris_medication_question">Ich nehme Schlafmittel, um einschlafenzu können</string>
+
+    <string name="title_activity_personal_info_edit_fragment">PersonalInfoEditFragment</string>
+    <string name="personal_info_word">PERSÖNLICHE DATEN ANPASSEN</string>
+    <string name="height">Größe cm</string>
+    <string name="weight">Gewicht kg</string>
+    <string name="name">Name</string>
+    <string name="birthday">Geburtstag</string>
+    <string name="householdmembers">Anzahl Haushaltsmitglieder</string>
+    <string name="children">davon Kinder</string>
+    <string name="sleep_pattern_problems">Haben Sie Probleme mit dem Ein- oder Durchschlafen?</string>
+    <string name="staying_awake_problems">Haben Sie Probleme tagsüber wach zu bleiben?</string>
+    <string name="other_sleep_disorders">Welche anderen Schlafprobleme haben Sie?</string>
+    <string name="problem_frequency">Wie häufig treten Ihre Schlafstörungen innerhalb einer Woche auf?</string>
+    <string name="since_when_problems">Seit wann bestehen Ihre Schlafschwierigkeiten?</string>
+    <string name="other_diseases">Unter welchen anderen Erkrankungen leiden Sie?</string>
+    <string name="general_medication">Welche Medikamente nehmen Sie gegenwärtig?</string>
+    <string name="avg_sleep_borders_word">übliche Bettzeiten</string>
+    <string name="avg_time_until_sleep_word">durchschnittliche Zeit um einzuschlafen</string>
+    <string name="avg_sleep_time_word">durchschnittliche Schlafzeit</string>
+    <string name="lets_go">Los geht\'s!</string>
+    <string name="welcome">Willkommen bei\n<u>SleepInspector!</u></string>
+
+
+    <string name="disclaimer_sleepdiary">
+        Diese App hilft Ihnen dabei Ihr Schlafverhalten zu erfassen.\n
+        Bitte füllen Sie die Abend- und Morgenprotokolle des Schlaftagebuches <u><i>regelmäßig</i></u> und <u><i>sorgfältig</i></u> aus.
+        Nur so können die von Ihnen angegebenen Daten zu Ihrem Nutzen ausgewertet werden.\n
+        \nNehmen Sie sich hierfür jeden Abend und jeden Morgen etwa <b>5</b> Minuten Zeit.\n
+        \n
+        Es gibt keine bessere Methode, sich ein umfassendes Bild von Ihren Schlafgewohnheiten und/oder -störungen
+        zu machen, als über längere Zeiträume hinweg gründlich Buch zu führen - so können auch
+        komplizierte Zusammenhänge erkannt werden. <u><i>Nehmen Sie diese Aufgabe bitte sehr ernst</i></u>.
+        \n\n
+
+        Zusätzlich zu dem Schlaftagebuch können Sie auch den Fragebogen "Regensburger Insomnie Skala" (RIS) ausfüllen.
+        Mit diesem Fragebogen kann der Schweregrad Ihrer Schlafprobleme schnell bestimmt werden. Füllen Sie ihn einfach ab und zu oder nach Absprache mit Ihrem Arzt aus.
+        \n\n
+        Das ausgefüllte Schlaftagebuch und die bearbeiteten RIS-Fragebögen können Sie sich jederzeit als PDF-Datei ausgeben lassen.\n
+        Die Dateien werden in ihrem Download Ordner gespeichert und können dort von Ihnen eingesehen werden.
+    </string>
+
+
+    <string name="safety_call">
+        Selbstverständlich werden die Angaben über Ihr Schlafverhalten vertraulich behandelt!
+        Die von Ihnen eingegebenen Daten werden NICHT über das Internet kommuniziert!
+        Sie können die erhobenen Daten jederzeit vollständig über die Einstellungen des Android-Betriebssystems
+        oder durch deinstallieren der App löschen.\n
+        Die durch die App generierten PDF-Dateien können sie jederzeit aus ihrem Download Ordner löschen.
+        Weiteres zum Datenschutz entnehmen Sie bitte unserer <u>Datenschutzerklärung</u>
+    </string>
+
+    <string name="one_last_thing">
+        Bevor Sie heute Abend vor dem Lichtlöschen mit dem Ausfüllen des Abendprotokolls
+        beginnen, stellen wir Ihnen vorab noch einige wesentliche Fragen zu Ihrem Problem und
+        Ihrer Person.
+    </string>
+    <string name="title_activity_article">ArticleActivity</string>
+    <string name="see_also">siehe auch:</string>
+    <string name="opt_in">Ich habe die Datenschutzerlärung gelesen und verstanden und bin damit einverstanden, dass die eingegebenen Daten auf meinem Handy gespeichert werden und zum Ausfüllen des Schlaftagebuches und der RIS-Fragebögen genutzt werden.</string>
+    <string name="sleep_pattern">Dein Schlafverhalten ist</string>
+    <string name="last_ris_disclaimer">(Ergebnis des letzten RIS-Eintrages)</string>
+    <string name="privacy">Datenschutz</string>
+    <string name="morning_at">Morgens um</string>
+    <string name="evening_at">Abends um</string>
+
+</resources>

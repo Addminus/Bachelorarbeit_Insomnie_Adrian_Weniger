@@ -1,0 +1,77 @@
+// holds all article data
+[
+  {
+    "id": 0,
+    "headline": "Datenschutzerklärung",
+    "description": "",
+    "text":"Mit dieser Datenschutzunterrichtung informieren wir Sie über die Verarbeitung Ihrer personenbezogenen Daten durch die Nutzung dieser App und die Ihnen nach dem Datenschutzrecht zustehenden Rechte.\n\nVerantwortlicher für die Datenverarbeitung:\n\nPLATZHALTER\n\n\n Art, Umfang und Zweck der erhobenen Daten:\n\nDie Erhebung von Daten in dieser App erfolgt ausschließlich auf freiwilliger Basis und mit Ihrem ausdrücklichen Einverständnis. In dieser App werden Daten zu Ihrer Person und zu Ihrem Schlafverhalten gespeichert. Zweck der Datenverarbeitung ist das Ausfüllen des Schlaftagebuches und der Regensburger Insomnie Skala (RIS), sowie zur Beantwortung Ihrer Service-Anfragen.\n\n\nRechtsgrundlagen:\n\nIhre Daten werden unter Beachtung der Datenschutzgrundverordnung und anderen maßgeblichen Gesetzen verarbeitet. Die Rechtsgrundlage zur Erhebung der Daten hängt davon ab in welchem Zusammenhang wir Ihre Daten erhalten. So ist die Rechtsgrundlage entweder die Erfüllung eines Vertrages nach Art. 6 Abs. 1 b DS-GVO, die Wahrung berechtigter Interessen des Verantwortlichen nach Art. 6 Abs. 1 f DS-GVO oder Einwilligung des Nutzers nach Art. 6 Abs. 1 a DS-GVO.\n\n\nVerwendung von Cookies, Tracking und Plugins:\n\nWir verwenden keine der genannten Technologien.\n\n\n Speicherdauer:\n\nIhre Daten werden solange gespeichert, wie es für die oben genannten Zwecke erforderlich ist. Sie können Ihre Daten allerdings jederzeit in den Einstellungen ihres Smartphones oder durch deinstallieren der App löschen.\n\n\n Vorkehrungen zu Datenschutz und Datensicherheit:\n\nIhre Daten werden nicht über das Internet kommuniziert. Die Daten werden ausschließlich lokal auf Ihrem Smartphone verarbeitet.\n\n\nBetroffenenrechte:\n\nSie können unter den oben genannten Kontaktdaten Auskunft erhalten. Die gesammten gesammelten Daten können Sie einsehen, indem Sie einen PDF-Bericht erstellen. Dort sind alle gespeicherten Daten aufgeführt. Zur Löschung Ihrer Daten lesen Sie sich bitte den Abschnitt 'Speicherdauer' durch.\n\n\nWiderspruchsrecht:\n\nSie haben jederzeit das Recht, einer Verarbeitung Ihrer Daten zu widersprechen. Löschen Sie hierzu einfach die App und die erstellten PDF-Berichte von Ihrem Smartphone. Es werden dann keine weiteren Daten erhoben und die bisher gesammelten Daten werden gelöscht.",
+    "also": [],
+    "link": ""
+  },
+  {
+    "id": 1,
+    "headline": "Was ist eine Insomnie?",
+    "description": "Information",
+    "text":"Eine Insomnie ist eine Schlafstörung, die dadurch gekennzeichnet ist, dass Betroffene über den Zeitraum von mindestens einem Monat Ein- und/oder Durchschlafstörungen haben, die mit einer Beeinträchtigung der Tagesbefindlichkeit oder der Leistungsfähigkeit am Tag einhergehen, wobei die Symptomatik nicht durch eine andere körperliche oder psychiatrische Störung bedingt ist.",
+    "also": [2],
+    "link": "https://www.dgaum.de/fileadmin/PDF/Leitlinien/S3-Leitlinie_-_03.03.2017-1.pdf"
+  },
+  {
+    "id":2,
+    "headline": "Welche Behandlung wird empfohlen?",
+    "description": "Information",
+    "text": "Es wird empfohlen, dass alle Patienten als erste Behandlungsmaßnahme die kognitive Verhaltenstherapie für Insomnie erhalten. Wenn diese Behandlung nicht ausreichend wirksam ist, wird empfohlen, dass Patienten und Ärzte gemeinsam entscheiden, ob eine medikamentöse Behandlung ausprobiert wird",
+    "also": [3, 4, 5, 6, 7, 8],
+    "link": "https://www.dgaum.de/fileadmin/PDF/Leitlinien/S3-Leitlinie_-_03.03.2017-1.pdf"
+
+  },
+  {
+    "id":3,
+    "headline": "Kognitive Verhaltenstherapie für Insomnien (KVT-I)",
+    "description": "Therapiemaßnahme",
+    "text": "Die kognitive Verhaltenstherapie für Insomnien soll bei Erwachsenen jedes Lebensalters als erste Behandlungsoption für Insomnien durchgeführt werden. Eine medikamentöse Therapie kann angeboten werden, wenn die KVT-I nicht hinreichend effektiv war oder nicht durchführbar ist.",
+    "also": [2],
+    "link": "https://www.dgaum.de/fileadmin/PDF/Leitlinien/S3-Leitlinie_-_03.03.2017-1.pdf"
+
+  },
+  {
+    "id":4,
+    "headline": "Benzodiazepinrezeptoragonisten",
+    "description": "Arzneimittel",
+    "text":"Benzodiazepinrezeptoragonisten sind im kurzzeitigen Gebrauch (3–4 Wochen) effektiv in der Behandlung von Insomnien. Die neuen Benzodiazepinrezeptoragonisten sind gleich wirksam wie die klassischen Benzodiazepinhypnotika.  Eine generelle Empfehlung zur Langzeitbehandlung von Insomnien mit Benzodiazepinrezeptoragonisten kann aufgrund der Datenlage und möglicher Nebenwirkungen/Risiken derzeit nicht ausgesprochen werden",
+    "also": [2],
+    "link": "https://www.dgaum.de/fileadmin/PDF/Leitlinien/S3-Leitlinie_-_03.03.2017-1.pdf"
+  },
+  {
+    "id":5,
+    "headline": "Sedierende Antidepressiva",
+    "description": "Arzneimittel",
+    "text":"Die Kurzzeitbehandlung von Insomnien mit sedierenden Antidepressiva ist effektiv, wobei Kontraindikationen zu Beginn und im Verlauf geprüft werden sollen. Eine generelle Empfehlung zur Langzeitbehandlung von Insomnien mit sedierenden Antidepressiva kann aufgrund der Datenlage und möglicher Nebenwirkungen/Risiken derzeit nicht ausgesprochen werden",
+    "also": [2],
+    "link": "https://www.dgaum.de/fileadmin/PDF/Leitlinien/S3-Leitlinie_-_03.03.2017-1.pdf"
+  },
+  {
+    "id":6,
+    "headline": "Antipsychotika",
+    "description": "Arzneimittel",
+    "text":"In Anbetracht der unzureichenden Datenlage für Antipsychotika in der Indikation Insomnie und angesichts ihrer Nebenwirkungen wird ihre Verwendung in der Insomniebehandlung nicht empfohlen. Eine Ausnahme stellen gerontopsychiatrische Patienten dar, bei denen ggf. niedrigpotente Antipsychotika als Schlafmittel gegebenwerden können",
+    "also": [2],
+    "link": "https://www.dgaum.de/fileadmin/PDF/Leitlinien/S3-Leitlinie_-_03.03.2017-1.pdf"
+  },
+  {
+    "id":7,
+    "headline": "Melatonin",
+    "description": "Arzneimittel",
+    "text":"Aufgrund von geringer Wirksamkeit bei dieser Indikation wird Melatonin nicht generell zur Behandlung vonInsomnien empfohlen",
+    "also": [2],
+    "link": "https://www.dgaum.de/fileadmin/PDF/Leitlinien/S3-Leitlinie_-_03.03.2017-1.pdf"
+  },
+  {
+    "id":8,
+    "headline": "Baldrian",
+    "description": "Arzneimittel",
+    "text":"Für Baldrian und andere Phytopharmaka kann aufgrund der unzureichenden Datenlage keine Empfehlung zum Einsatz in der Insomniebehandlung gegeben werden",
+    "also": [2],
+    "link": "https://www.dgaum.de/fileadmin/PDF/Leitlinien/S3-Leitlinie_-_03.03.2017-1.pdf"
+  }
+]

@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        applicationId "com.example.adrianweniger.sleepinspector"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:26.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.shuhart.stepview:stepview:1.2.6'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    compile 'com.aurelhubert:ahbottomnavigation:2.0.4'
+    compile 'com.github.sundeepk:compact-calendar-view:2.0.2.2'
+    compile 'org.jetbrains.anko:anko-sqlite:0.10.4'
+    compile 'com.github.clans:fab:1.6.4'
+}

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/pdf_table">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regensburger Insomnie Skala"
+        android:layout_marginTop="20px"
+        android:textSize="15px"
+        />
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ris_table">
+
+        <TableRow
+            android:id="@+id/header_evening_data"
+            android:background="@color/colorPrimary"
+            android:layout_height="500px"
+            android:layout_marginTop="15px"
+            android:paddingTop="5px"
+            android:paddingBottom="5px"
+            >
+            <TextView
+                android:text="@string/date"
+                android:layout_width="49px"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="7px"
+                android:paddingLeft="2px"
+                android:paddingRight="2px"
+
+                />
+
+            <TextView
+                android:layout_width="49px"
+                android:paddingLeft="2px"
+                android:paddingRight="2px"
+                android:text="@string/avg_sleep_borders_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="8px"
+
+                />
+
+            <TextView
+                android:layout_width="49px"
+                android:paddingLeft="2px"
+                android:paddingRight="2px"
+                android:text="@string/avg_time_until_sleep_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="8px"
+
+                />
+
+            <TextView
+                android:layout_width="49px"
+                android:paddingLeft="2px"
+                android:paddingRight="2px"
+                android:text="@string/avg_sleep_time_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="8px"
+
+                />
+
+            <TextView
+                android:layout_width="49px"
+                android:paddingLeft="2px"
+                android:paddingRight="2px"
+                android:text="@string/sleep_interruption_question"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="8px"
+
+                />
+
+            <TextView
+                android:layout_width="49px"
+                android:paddingLeft="2px"
+                android:paddingRight="2px"
+                android:text="@string/early_sleep_end_question"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="8px"
+
+                />
+
+            <TextView
+                android:layout_width="49px"
+                android:paddingLeft="2px"
+                android:paddingRight="2px"
+                android:text="@string/noise_affinity_question"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="8px"
+
+                />
+
+            <TextView
+                android:layout_width="49px"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2px"
+                android:paddingRight="2px"
+                android:text="@string/felt_sleep_quality_question"
+                android:textAlignment="center"
+
+                android:textColor="@color/black"
+                android:textSize="8px" />
+
+            <TextView
+                android:layout_width="49px"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2px"
+                android:paddingRight="2px"
+                android:text="@string/sleep_pondering_question"
+                android:textAlignment="center"
+
+                android:textColor="@color/black"
+                android:textSize="8px" />
+
+            <TextView
+                android:layout_width="49px"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2px"
+                android:paddingRight="2px"
+                android:text="@string/sleep_fear_question"
+                android:textAlignment="center"
+
+                android:textColor="@color/black"
+                android:textSize="8px" />
+
+            <TextView
+                android:layout_width="49px"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2px"
+                android:paddingRight="2px"
+                android:text="@string/felt_performance_question"
+                android:textAlignment="center"
+
+                android:textColor="@color/black"
+                android:textSize="8px" />
+
+            <TextView
+                android:layout_width="49px"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2px"
+                android:paddingRight="2px"
+                android:text="@string/ris_medication_question"
+                android:textAlignment="center"
+
+                android:textColor="@color/black"
+                android:textSize="8px" />
+
+            <TextView
+                android:layout_width="49px"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2px"
+                android:paddingRight="2px"
+                android:text="Ergebnis"
+                android:textAlignment="center"
+
+                android:textColor="@color/black"
+                android:textSize="8px" />
+
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
