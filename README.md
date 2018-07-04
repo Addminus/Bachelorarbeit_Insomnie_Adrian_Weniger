@@ -8,7 +8,7 @@ Prof. Dr. med. Reinhard Busse, MPH FFP
 
 Wissenschaftlicher Mitarbeiter und Betreuer der Arbeit: Victor Stephani
 
-Adrian Weniger
+Adrian Weniger,
 Matrikelnummer: 356080
 
 ## Aufbau des Github Repository
